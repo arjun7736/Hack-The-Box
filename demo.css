@@ -1,0 +1,527 @@
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.first {
+  background-color: #111927;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  padding-left: 120px;
+  
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+.ul {
+  display: flex;
+  list-style: none;
+  margin: 150px;
+}
+
+#li {
+  padding: 10px;
+  color: gray;
+}
+
+
+#li:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  font-weight: bold;
+  font-size: large;
+}
+
+.button {
+  cursor: pointer;
+  font-size: medium;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+  margin-left: 15px;
+  border-radius: 2px;
+  height: 45px;
+  width: 130px;
+  background-color: #9fef00;
+}
+
+#p {
+  color: #9fef00;
+  font-size: 14;
+  font-weight: 700;
+  margin-left: 330px;
+  padding-right: 10px;
+}
+
+.p {
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.fill {
+  font-weight: 900;
+  font-size: 1.6cm;
+  color: white;
+  margin-left: 400px;
+  margin-top: 70px;
+}
+
+.fill2 {
+  font-weight: 900;
+  font-size: 1.6cm;
+  color: white;
+  margin-left: 420px;
+}
+
+.p1 {
+  margin-left: 330px;
+  font-size: 0.6cm;
+  font-weight: 50;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: gray;
+}
+
+.p2 {
+  margin-left: 360px;
+  font-size: 0.6cm;
+  font-weight: 50;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  color: gray;
+}
+
+body {
+  background-image: url(images/bg.svg);
+  height: 1200px;
+  width: 88%;
+  range: resolution 50%;
+  background-color: #111927;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.box {
+  margin-top: 30px;
+  height: 580px;
+  width: 500px;
+  background-color: #1A2332;
+  margin-left: 135px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.box2 {
+  margin-top: 30px;
+  height: 580px;
+  width: 500px;
+  background-color: #1A2332;
+  margin-left: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image {
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+}
+
+.boxtext {
+  text-align: center;
+  font-size: 1.2cm;
+  color: white;
+}
+
+.boxpara {
+  color: grey;
+  font-size: 0.5cm;
+  padding-left: 90px;
+}
+
+.boxpara2 {
+  color: grey;
+  padding-left: 120px;
+  font-size: 0.5cm;
+}
+
+.demo {
+  font-size: 0.5cm;
+  padding-left: 180px;
+  color: white;
+  margin-top: 15px;
+}
+
+#demo:hover {
+  color: #9fef00;
+}
+
+.longbox {
+  margin-top: 35px;
+  margin-left: 135px;
+  height: 200px;
+  width: 1050px;
+  background-color: #1A2332;
+  display: flex;
+  overflow: hidden;
+}
+
+#longbox:hover {
+  cursor: pointer;
+}
+
+.longboximage {
+  height: 290px;
+  width: 600px;
+  background-color: #1A2332;
+  object-fit: cover;
+  object-position: -120px -45px;
+}
+
+.adbanner {
+  margin-top: 35px;
+  height: 180px;
+  width: 100%;
+  background-color: #111927;
+  display: flex;
+}
+
+.adimage {
+  margin-left: 25px;
+  height: 200px;
+  width: 200px;
+}
+
+.longboxtext {
+  padding-top: 10px;
+  font-size: 0.6cm;
+  color: gray;
+}
+
+.enroll {
+  padding-top: 12px;
+  font-weight: bolder;
+  font-size: 0.5cm;
+  color: white;
+}
+
+#p1:hover {
+  color: #9fef00;
+}
+
+.adunder {
+  color: grey;
+  font-size: 0.5cm;
+  padding-left: 450px;
+}
+
+.htblogo {
+  height: 35px;
+  width: 35px;
+  margin-top: 100px;
+  margin-left: 625px;
+}
+
+.logobig {
+  color: white;
+  font-size: 0.9cm;
+  font-weight: bolder;
+  margin-left: 500px;
+  margin-top: 20px;
+}
+
+.logosmall {
+  color: gray;
+  margin-left: 450px;
+  margin-top: 15px;
+}
+
+.whybox {
+  height: 400px;
+  width: 400px;
+  background-color: #1A2332;
+  margin-left: 120px;
+  margin-top: 40px;
+
+}
+
+.whybox2 {
+  margin-top: 40px;
+  height: 400px;
+  width: 400px;
+  background-color: #1A2332;
+  margin-left: 35px;
+}
+
+.whysmalltext {
+  margin-top: 10px;
+  color: gray;
+  margin-left: 60px;
+}
+
+.whybig {
+  color: white;
+  margin-left: 25px;
+}
+
+.whyimage {
+  margin-top: 35px;
+  margin-left: 45px;
+}
+
+.outline {
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  overflow: hidden;
+  margin-left: 115px;
+  width: 1080px;
+  height: 177px;
+  border: 1px solid #202837;
+}
+
+.outlineimage:hover {
+  cursor: default;
+}
+
+.outlinetext {
+  position: absolute;
+  top: 40px;
+  left: 480px;
+  color: #9fef00;
+  font-size: 45px;
+}
+
+
+.outlineimage {
+  
+  height: 200px;
+  width: 900px;
+}
+
+.outh2 {
+  position: absolute;
+  top: 100px;
+  left: 360px;
+  color: white;
+  font-size: 23px;
+}
+
+.span {
+  color: #9fef00;
+  text-decoration: underline;
+}
+
+.span:hover {
+  cursor: pointer;
+}
+
+.loved {
+  margin-top: 100px;
+  font-size: 1.5cm;
+  font-weight: bolder;
+  color: white;
+  margin-left: 150px;
+
+}
+
+.newback {
+  background-color: #1A2332;
+  width: 1349px;
+  margin-top: 50px;
+  height: 1500px;
+}
+
+.arrowbox {
+  height: 50px;
+  width: 50px;
+  background-color: grey;
+  border-radius: 10px;
+  margin-left: 350px;
+  margin-top: 130px;
+}
+
+#i {
+  margin-top: 15px;
+  margin-left: 21px;
+}
+
+.arrowbox2 {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 130px;
+  margin-left: 5px;
+}
+
+.commentbox {
+  border-radius: 5px;
+  border: 5px;
+  border-color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+  height: 500px;
+  width: 450px;
+  background-color: #0B121F;
+}
+
+.commentboxtext {
+  color: grey;
+  margin: 35px;
+  font-size: large;
+}
+
+.puma {
+  height: 30px;
+  width: 70px;
+  margin-left: 20px;
+}
+
+.context {
+  margin-top: 110px;
+  height: 85px;
+  width: 90px;
+  margin-left: 25px;
+}
+
+#h1 {
+  color: white;
+  font-weight: bolder;
+  margin-left: 450px;
+  margin-top: 100px;
+}
+
+#h2 {
+  color: #9fef00;
+  font-weight: bolder;
+  margin-left: 490px;
+}
+
+.imagebox {
+  height: 400px;
+  width: 350px;
+  margin-left: 50px;
+  margin-top: 45px;
+}
+
+.imagefot {
+  height: 200px;
+  width: 350px;
+}
+
+.footimagetext {
+  margin-top: 20px;
+  color: gray;
+  font-size: .4cm;
+}
+
+.footh3 {
+  margin-top: 20px;
+  color: whitesmoke;
+}
+
+.lastbox {
+  padding-top: 80px;
+  text-align: center;
+  height: 300px;
+  width: 600px;
+  color: white;
+
+}
+
+.lastbox2 {
+  padding-top: 80px;
+  text-align: center;
+  height: 300px;
+  color: white;
+  width: 500px;
+
+}
+
+.lastbox3 {
+  padding-top: 80px;
+  text-align: center;
+  height: 300px;
+  width: 500px;
+  color: white;
+}
+
+#lastbox:hover {
+  color: #9fef00;
+  cursor: pointer;
+}
+
+.hthw {
+  height: 150px;
+  width: 200px;
+  margin-left: 50px;
+}
+
+.footli {
+  margin-top: 10px;
+  color: grey;
+  padding-left: 50px;
+}
+
+#productlist {
+  margin-top: 50px;
+  color: white;
+  list-style: none;
+  font-size: larger;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.productlist {
+  color: grey;
+  list-style: none;
+  font-size: larger;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.company {
+  color: grey;
+  list-style: none;
+  font-size: larger;
+  padding-top: 10px;
+  margin-left: 200px;
+}
+
+#company {
+  color: white;
+  list-style: none;
+  font-size: larger;
+  margin-top: 60px;
+  margin-left: 200px;
+}
+.company:hover{
+  cursor: pointer;
+  color: white;
+}
+.productlist:hover{
+  cursor: pointer;
+  color: white;
+}
+.social {
+  height: 25px;
+  margin-top: 300px;
+  margin-left: -200px;
+}
+
+.social2 {
+  height: 25px;
+  margin-top: 300px;
+  margin-left: 8px;
+}
